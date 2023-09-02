@@ -23,8 +23,14 @@ export default function RootLayout({
           sizes="32x32"
           href="/favicon-32x32.png"
         ></link>
+        <meta
+          content="QR Code Challenge by Frontend Mentor"
+          name="description"
+        />
       </head>
-      <body className={`${outfit.className} bg-[--color-lightgray]`}>{children}</body>
+      <body className={`${outfit.className} bg-[--color-lightgray]`}>
+        {children}
+      </body>
     </html>
   );
 }
