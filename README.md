@@ -17,8 +17,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/njpoli/qr-code-challenge](https://github.com/njpoli/qr-code-challenge)
+- Live Site URL: [https://qr-code-challenge-nu.vercel.app/](https://qr-code-challenge-nu.vercel.app/)
 
 ## My process
 
