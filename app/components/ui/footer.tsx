@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="sticky bottom-0 text-center">
+    <div className="sticky bottom-0 text-center" role="footer">
       Challenge by{" "}
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="font-bold underline hover:decoration-2">
         Frontend Mentor

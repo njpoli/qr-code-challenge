@@ -4,7 +4,7 @@ import QRCode from "./components/ui/qr-code";
 export default function Page() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen">
+      <div className="flex flex-col justify-center items-center h-screen" role="main">
         <QRCode />
       </div>
       <Footer />
