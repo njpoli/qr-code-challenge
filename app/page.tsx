@@ -1,12 +1,12 @@
-import Footer from "./components/ui/footer";
-import QRCode from "./components/ui/qr-code";
+import Footer from './components/ui/footer';
+import QRCode from './components/ui/qr-code';
 
 export default function Page() {
   return (
     <>
       <div
-        className="flex flex-col justify-center items-center h-screen"
-        role="main"
+        className='flex flex-col justify-center items-center h-screen'
+        role='main'
       >
         <QRCode />
         <Footer />

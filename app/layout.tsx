@@ -1,13 +1,13 @@
-import { Outfit } from "next/font/google";
-import type { Metadata } from "next";
-import "./styles/globals.css";
+import { Outfit } from 'next/font/google';
+import type { Metadata } from 'next';
+import './styles/globals.css';
 
 export const metadata: Metadata = {
-  title: "Frontend Mentor | QR code component",
-  description: "Created by njpoli",
+  title: 'Frontend Mentor | QR code component',
+  description: 'Created by njpoli',
 };
 
-const outfit = Outfit({ subsets: ["latin"], weight: ["400", "700"] });
+const outfit = Outfit({ subsets: ['latin'], weight: ['400', '700'] });
 
 export default function RootLayout({
   children,
@@ -15,17 +15,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicon-32x32.png'
         ></link>
         <meta
-          content="QR Code Challenge by Frontend Mentor"
-          name="description"
+          content='QR Code Challenge by Frontend Mentor'
+          name='description'
         />
       </head>
       <body className={`${outfit.className} bg-[--color-lightgray]`}>
